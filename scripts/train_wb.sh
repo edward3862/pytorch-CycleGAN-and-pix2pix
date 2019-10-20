@@ -1,1 +1,1 @@
-CUDA_VISIABLE_DEVICES=0 python train.py --dataroot ./datasets/WebCaricature --name wb_p2c --model cycle_gan --pool_size 50
+python /workspace/cyclegan/train.py --dataroot ./wb_p2c  --checkpoints_dir ./checkpoints --name wb_p2c --model cycle_gan --pool_size 50
